@@ -15,4 +15,4 @@ A static C# class providing a lot of colors to speed up prototyping.
 
 Add the following line to your `manifest.json` found in the "Packages" folder
 
-`    "com.softboiledgames.unityxtension": "git@github.com:SoftBoiledGames/ColorsForUnity.git"`
+`    "com.softboiledgames.colors": "git@github.com:SoftBoiledGames/ColorsForUnity.git"`
