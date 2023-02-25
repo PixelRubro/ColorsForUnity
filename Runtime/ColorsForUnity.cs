@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace SoftBoiledGames.Colors
+namespace PixelSpark.Colors
 {
     /// <summary>
     /// Credits to github.com/LotteMakesStuff for putting it together.
@@ -161,15 +161,12 @@ namespace SoftBoiledGames.Colors
         /// Decides which color from black or white which
         /// contrasts better with this color <paramref name="color"/>.
         /// </summary>
-        /// </<seealso cref="http://stackoverflow.com/questions/2241447/make-foregroundcolor-black-or-white-depending-on-background"/>
+        /// <seealso cref="http://stackoverflow.com/questions/2241447/make-foregroundcolor-black-or-white-depending-on-background"/>
         public static Color GetContrastingColor(Color color)
         {
-            float colorProduct = color.r * color.r * 0.241f + color.g * color.g * 0.691f + color.b * color.b * 0.068f;
+            var colorProduct = color.r * color.r * 0.241f + color.g * color.g * 0.691f + color.b * color.b * 0.068f;
 
-            if (Mathf.Sqrt(colorProduct) > 128f)
-                return Color.black;
-
-            return Color.white;
+            return Mathf.Sqrt(colorProduct) > 128f ? Color.black : Color.white;
         }
 
         #endregion
