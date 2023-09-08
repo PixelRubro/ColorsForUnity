@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace PixelSpark.Colors
+namespace VermillionVanguard.Colors
 {
     /// <summary>
     /// Credits to github.com/LotteMakesStuff for putting it together.
