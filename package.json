@@ -1,11 +1,11 @@
 {
-  "name": "com.vermillionvanguard.colors",
+  "name": "com.pixelrouge.colorsforunity",
   "displayName": "Colors for Unity",
   "description": "A static C# class providing a lot of colors to improve prototyping.",
   "version": "1.0.0",
   "unity": "2019.4",
   "license": "MIT",
   "author": {
-    "name": "Vermillion Vanguard Studio"
+    "name": "Pixel Rouge Studio"
   }
 }

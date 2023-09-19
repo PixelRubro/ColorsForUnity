@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace VermillionVanguard.Colors
+namespace PixelRouge.Colors
 {
     /// <summary>
     /// Credits to github.com/LotteMakesStuff for putting it together.
